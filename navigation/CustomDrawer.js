@@ -23,6 +23,11 @@ export default function CustomDrawer(props) {
         onPress={() => props.navigation.navigate("About")}
       />
 
+      <DrawerItem 
+        label="Settings"
+        onPress={() => props.navigation.navigate("About")}
+      />
+
       {/* Logout Button */}
       <DrawerItem 
         label="Logout"
